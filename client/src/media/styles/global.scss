@@ -1,0 +1,10 @@
+.col-count-3 {
+    display: grid;
+    grid-template: 1fr / 1fr 1400px 1fr;
+    @media all and (max-width: 1400px) {
+        grid-template: 1fr / 1em 1fr 1em;
+    }
+}
+.start2 {
+    grid-column-start: 2;
+}
